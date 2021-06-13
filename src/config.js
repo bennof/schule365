@@ -1,3 +1,4 @@
+// Copyright (c) 2021 Benjamin Benno Falkner
 'use strict';
 
 const fs = require('fs');
