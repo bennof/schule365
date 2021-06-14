@@ -1,15 +1,17 @@
 {
   "name": "schule365",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "Sync Office365 with SchildNRW database for schools",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["school","office365","access db", "schildnrw"],
   "author": "Benjamin Benno Falkner",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.2",
+    "node-adodb": "^5.0.3"
   }
 }
