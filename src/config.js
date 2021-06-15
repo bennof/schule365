@@ -18,8 +18,8 @@ function read(filen = __dirname+'/../priv/config.json'){
 }
 
 function write(cfg, filen = __dirname+'/../priv/config.json'){
-    let data = JSON.stringify(student);
-    fs.writeFileSync('student-2.json', data);
+    let data = JSON.stringify(cfg);
+    fs.writeFileSync(__dirname+'/../priv/config.json', data);
 }
 
 function empty(){
