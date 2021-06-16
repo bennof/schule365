@@ -97,9 +97,10 @@ class Connection {
     }
 
     query(sql){
-        return new Promise((resolve,reject) => {
-            this.db.query(sql).on('done',(data) => {resolve(data);});
-        });   
+        return this.db.query(sql);
+        //return new Promise((resolve,reject) => {
+        //    this.db.query(sql).on('done',(data) => {resolve(data);});
+        //});   
     }
 }
 
